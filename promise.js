@@ -231,19 +231,19 @@
 // }
 
 
-const requestData = async (url) => {
-    try {
-        const response = await fetch(url)
-        const data = response.json()
-        return data
-    } catch (err) {
-        console.log(err)
-    }
-}
+// const requestData = async (url) => {
+//     try {
+//         const response = await fetch(url)
+//         const data = response.json()
+//         return data
+//     } catch (err) {
+//         console.log(err)
+//     }
+// }
 
-async function test() {
-    const data = await requestData('https://jsonplaceholder.typicode.com/posts')
-    console.log(data)
-}
+// async function test() {
+//     const data = await requestData('https://jsonplaceholder.typicode.com/posts')
+//     console.log(data)
+// }
 
-test()
+// test()
