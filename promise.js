@@ -246,4 +246,4 @@
 //     console.log(data)
 // }
 
-// test()
+test()
